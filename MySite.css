@@ -1,0 +1,503 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.header-box {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo-image{
+	height: 70px;
+	float: left;
+}
+
+.nav-list {
+	float: right;
+}
+
+.nav-list-item {
+	font-size: 16px;
+	color: #FAFAFA;
+	list-style: none;
+	display: inline;
+	margin: 0 30px;
+	line-height: 70px;
+}
+
+#main-visual {
+	height: 650px;
+	width: 100%;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.mv-box {
+	padding-top: 200px;
+}
+
+.mv-title {
+	text-align: center;
+	font-size: 64px;
+	color: #FAFAFA;
+}
+
+.mv-text {
+	text-align: center;
+	font-size: 20px;
+	color: #FAFAFA;
+	margin-top: 10px;
+}
+
+#Portfolio {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+
+.Portfolio-title-box {
+	margin: 0 auto;
+	width: 920px;
+	padding-top: 90px;
+}
+
+.Portfolio-title {
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+
+hr {
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 8px auto 30px auto;
+	border: none;
+}
+
+.Portfolio-text {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.Portfolio-image-box {
+	width: 920px;
+	height: 600px;
+	margin: 30px auto 0 auto;
+}
+
+.Portfolio-box {
+	width: 300px;
+	height: 250px;
+	margin-right: 10px;
+	margin-top: 10px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.Portfolio-box:nth-child(3n){
+	margin-right: 0;
+}
+
+.Portfolio-box:nth-child(-n+3){
+	margin-top: 0;
+}
+
+.pf-image1 {
+	background-image: url(img/sketch.jpg);
+}
+.pf-image2 {
+	background-image: url(img/websuku.png);
+}
+.pf-image3 {
+	background-image: url(img/write.jpg);
+}
+.pf-image4 {
+	background-image: url(img/webcamp.png);
+}
+.pf-image5 {
+	background-image: url(img/talk.jpg);
+}
+.pf-image6 {
+	background-image: url(img/webcamp-mother.png);
+}
+
+#Feature {
+	width: 100%;
+}
+
+.Feature-title-box {
+	margin: 0 auto;
+	width: 980px;
+	padding-top: 90px;
+}
+
+.Feature-title {
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+
+.Feature-text {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.Feature-box {
+	width: 980px;
+	margin: 30px auto 90px auto;
+}
+
+.strength {
+	width: 320px;
+	margin-right: 10px;
+	float: left;
+	text-align: center;
+}
+
+.strength:last-child{
+	margin-right: 0;
+}
+
+.fas {
+	font-size: 60px;
+}
+
+.strength-title {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.strength-sentence{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#Profile {
+	background-color: #ECEFF1;
+}
+
+.Profile-box {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.Profile-title {
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+}
+
+.Profile-text {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	margin: 30px auto;
+}
+
+.Profile-main-box {
+	width: 1024px;
+	padding-bottom: 90px;
+}
+
+.Profile-left{
+	width: 50%;
+	float: left;
+}
+
+.my-icon{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-image: url(img/my-icon.jpg);
+}
+
+.Profile-right {
+	width: 50%;
+	float: left;
+}
+
+.Profile-right-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+.Profile-right-title:first-child{
+	margin-top: 0;
+}
+
+.Profile-right-text {
+	font-size: 16px;
+	color: #000000;
+}
+
+#Contact {
+	width: 100%;
+}
+
+.Contact-box {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.Contact-title {
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+}
+
+.Contact-text {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	margin: 30px auto;
+}
+
+.Contact-main-box {
+	width: 800px;
+	padding-bottom: 90px;
+}
+
+.Contact-left{
+	width: 50%;
+	float: left;
+}
+
+.Contact-left-box {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.Contact-right {
+	width: 50%;
+	float: left;
+}
+
+.Contact-left-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+.Contact-left-title:first-child{
+	margin-top: 0;
+}
+
+.Contact-left-text {
+	text-decoration: underline;
+	font-size: 16px;
+	color: #000000;
+}
+
+.Contact-right-box {
+	width: 190px;
+	margin: 0 auto;
+}
+
+.Contact-right-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.fab {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+.fab:last-child {
+	margin-right: 0;
+}
+
+footer{
+	width: 100%; /* 横幅 */
+	height: 60px; /* 高さ */
+	text-align: center;
+	line-height: 60px;
+	background-color: #EC715F;
+}
+
+.footer-text{
+	font-size: 16px;
+	color: #FAFAFA;
+}
+
+@media screen and (max-width:767px) {
+	header{
+		height: 50px;
+	}
+
+	.header-box {
+		width: 90%;
+	}
+
+	.logo-image{
+		float: none;
+		height: 50px;
+	}
+
+	.menu-box{
+		float: right;
+		width: 40px;
+		height: 40px;
+		border: 1px solid #FAFAFA;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.list-bar:first-child {
+		margin-top: 10px;
+	}
+
+	.list-bar {
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #FAFAFA;
+	}
+
+	.nav-list{
+		float: none;
+	}
+
+	.nav-list-item {
+		display: none;
+	}
+
+	#main-visual {
+		background-image: url(img/code.png);
+	}
+
+	.mv-box{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.mv-title {
+		font-size: 40px;
+	}
+
+	.mv-text {
+		font-size: 18px;
+	}
+
+	.Portfolio-title-box {
+		width: 90%;
+	}
+
+	.Portfolio-image-box {
+		width: 300px;
+		height: 890px;
+	}
+
+	.Portfolio-box {
+		float: none;
+	}
+
+	.image-none {
+		display: none;
+	}
+
+	.Feature-title-box {
+		width: 90%;
+	}
+
+	.Feature-box {
+		width: 320px;
+	}
+
+	.strength:first-child {
+		margin-top: 0;
+	}
+
+	.strength {
+		float: none;
+		margin-top: 10px;
+	}
+
+	.Profile-box {
+		width: 90%;
+	}
+
+	.Profile-main-box {
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.Profile-left {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.Profile-right {
+		float: none;
+		width: 100%;
+	}
+
+	.Contact-box {
+		width: 90%;
+	}
+
+	.Contact-main-box{
+		width: 100%;
+		text-align: center;
+	}
+
+	.Contact-left {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.Contact-right {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.Contact-left-box {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.Contact-right-box {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.fab {
+		margin-right: 8px;
+	}
+}
